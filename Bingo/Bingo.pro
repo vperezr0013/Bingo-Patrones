@@ -9,14 +9,38 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    BaseEntity.cpp \
+    Cola.cpp \
+    ColaFactory.cpp \
+    Gestor.cpp \
+    IAbstractFactoryStruct.cpp \
+    IStruct.cpp \
+    List.cpp \
+    ListFactory.cpp \
+    Nodo.cpp \
+    Pila.cpp \
+    PilaFactory.cpp \
     main.cpp \
     bingo.cpp
 
 HEADERS += \
+    BaseEntity.h \
+    Cola.h \
+    ColaFactory.h \
+    Gestor.h \
+    IAbstractFactoryStruct.h \
+    IStruct.h \
+    List.h \
+    ListFactory.h \
+    Nodo.h \
+    Pila.h \
+    PilaFactory.h \
     bingo.h
 
 FORMS += \
     bingo.ui
+
+ABSTRACFACTORY +=\
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
