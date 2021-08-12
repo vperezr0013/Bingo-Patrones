@@ -6,6 +6,7 @@ class BaseEntity
 protected:
 	int id;
 	BaseEntity(int id);
+public:
 	virtual int getID();
 };
 

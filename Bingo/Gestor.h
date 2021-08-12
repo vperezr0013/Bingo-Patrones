@@ -16,7 +16,10 @@ using namespace std;
 class Gestor
 {
 private:
+    IStruct* bolitasJugadas;
 	IStruct* crearEstructura(int);
+    void agregarBolitaJugadaaLista(BaseEntity* bolitaJugada);
+    bool validarBolitasJugadas(BaseEntity* bolitaJugada);
 public:
 	Gestor();
     ~Gestor();
