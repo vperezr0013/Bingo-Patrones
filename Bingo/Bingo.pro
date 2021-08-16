@@ -20,6 +20,8 @@ SOURCES += \
     Nodo.cpp \
     Pila.cpp \
     PilaFactory.cpp \
+    carton.cpp \
+    cartoncontroller.cpp \
     main.cpp \
     bingo.cpp
 
@@ -35,7 +37,9 @@ HEADERS += \
     Nodo.h \
     Pila.h \
     PilaFactory.h \
-    bingo.h
+    bingo.h \
+    carton.h \
+    cartoncontroller.h
 
 FORMS += \
     bingo.ui

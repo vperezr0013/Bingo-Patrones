@@ -15,6 +15,12 @@ public:
     Bingo(QWidget *parent = nullptr);
     ~Bingo();
 
+private slots:
+
+    void on_btnGenerarCarton1_clicked();
+
+    void on_btnGenerarCarton2_clicked();
+
 private:
     Ui::Bingo *ui;
 };
