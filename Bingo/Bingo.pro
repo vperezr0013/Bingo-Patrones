@@ -20,6 +20,7 @@ SOURCES += \
     Nodo.cpp \
     Pila.cpp \
     PilaFactory.cpp \
+    Premios.cpp \
     carton.cpp \
     cartoncontroller.cpp \
     main.cpp \
@@ -37,6 +38,8 @@ HEADERS += \
     Nodo.h \
     Pila.h \
     PilaFactory.h \
+    Premios.h \
+    SistemaPremios.h \
     bingo.h \
     carton.h \
     cartoncontroller.h
